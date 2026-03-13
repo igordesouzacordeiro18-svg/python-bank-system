@@ -1,3 +1,5 @@
+from armazenamento import salvar_contas
+
 def depositar(contas):
     numero = int(input('digite o número da conta: '))
     valor = float(input("Digite o valor do depósito: "))
@@ -6,8 +8,10 @@ def depositar(contas):
         if conta['numero'] == numero:
             conta['saldo'] += valor
             conta['extrato'].append (f'Depósito = +R${valor:.2f}')
+            salvar_contas(contas)
             print('\nDepósito realizado com sucesso!')
             return
+        
     print('\nConta não encontrada')
 
 def sacar(contas):
@@ -20,11 +24,11 @@ def sacar(contas):
             if conta['saldo'] >= valor:
                 conta['saldo'] -=valor
                 conta['extrato'].append (f'Saque: -R${valor:.2f}')
+                salvar_contas(contas)
                 print('Saque realizado com sucesso!')   
 
             else:
                 print('Saldo insuficiente.')    
-
             return 
 
     print('Conta não encontrada.')  

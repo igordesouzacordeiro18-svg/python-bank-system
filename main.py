@@ -1,12 +1,13 @@
 from menu import menu
 from contas import criar_conta,listar
 from operacoes import depositar,sacar,ver_saldo,ver_extrato
-def main():
-    contas = []
+from armazenamento import carregar_contas
 
+def main():
+    contas = carregar_contas()
     while True:
         menu()
-        opcao = input('\nEscolha uma opção: ')
+        opcao =input('Escolha uma opção: ')
 
         if opcao == '1':
             criar_conta(contas)

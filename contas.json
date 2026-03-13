@@ -1,0 +1,19 @@
+[
+    {
+        "nome": "Igor de Souza Cordeiro",
+        "cpf": "15761631725",
+        "numero": 1,
+        "saldo": 0,
+        "extrato": []
+    },
+    {
+        "nome": "Alexsandra de souza dos santos",
+        "cpf": "97520470504",
+        "numero": 2,
+        "saldo": 50.0,
+        "extrato": [
+            "Dep\u00f3sito = +R$100.00",
+            "Saque: -R$50.00"
+        ]
+    }
+]

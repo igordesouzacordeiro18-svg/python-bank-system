@@ -1,3 +1,5 @@
+from armazenamento import salvar_contas
+
 def criar_conta(contas):
     nome = input('Digite seu nome completo: ')
     cpf = input('Digite seu CPF: ')
@@ -12,7 +14,10 @@ def criar_conta(contas):
     }
 
     contas.append(conta)
+    salvar_contas(contas)
+
     print('\nCadastro criado com sucesso!')
+    print(f'Seu número de conta é: {numero}')
 
 
 def listar(contas):
