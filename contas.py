@@ -18,11 +18,13 @@ def criar_conta(contas):
 
     print('\nCadastro criado com sucesso!')
     print(f'Seu número de conta é: {numero}')
+    input("Pressione Enter para continuar...")
 
 
 def listar(contas):
     if not contas:
         print('Nenhuma conta foi criada.')
+        input('Digite ENTER para voltar...')
         return
 
     for conta in contas:
@@ -30,3 +32,4 @@ def listar(contas):
         print(f'Nome: {conta["nome"]}')
         print(f'CPF: {conta["cpf"]}')
         print(f'Saldo: {conta["saldo"]}')
+    input('\nPressione ENTER para continuar...')

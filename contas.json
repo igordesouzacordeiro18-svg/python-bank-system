@@ -10,10 +10,39 @@
         "nome": "Alexsandra de souza dos santos",
         "cpf": "97520470504",
         "numero": 2,
-        "saldo": 50.0,
+        "saldo": 30.299999999999997,
         "extrato": [
             "Dep\u00f3sito = +R$100.00",
-            "Saque: -R$50.00"
+            "Saque: -R$50.00",
+            "Dep\u00f3sito = +R$100.50",
+            "Saque: -R$120.20"
         ]
+    },
+    {
+        "nome": "Ana J\u00falia de Souza Chagas",
+        "cpf": "18765842707",
+        "numero": 3,
+        "saldo": 1590.6100000000001,
+        "extrato": [
+            "Dep\u00f3sito = +R$950.99",
+            "Saque: -R$560.88",
+            "Dep\u00f3sito = +R$1200.50"
+        ]
+    },
+    {
+        "nome": "Fl\u00e1vio de Souza Cordeiro",
+        "cpf": "05263192754",
+        "numero": 4,
+        "saldo": 1500.0,
+        "extrato": [
+            "Dep\u00f3sito = +R$1500.00"
+        ]
+    },
+    {
+        "nome": "jo\u00e3o Marcus",
+        "cpf": "12345678910",
+        "numero": 5,
+        "saldo": 0,
+        "extrato": []
     }
 ]

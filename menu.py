@@ -1,4 +1,10 @@
+import os
+
+def limpar_tela():
+    os.system('cls')
+
 def menu():
+    limpar_tela()
     print("\n=== BANCO PYTHON ===")
     print("1 - Criar conta")
     print("2 - Ver contas")
