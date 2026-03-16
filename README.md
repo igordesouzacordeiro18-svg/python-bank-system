@@ -1,16 +1,16 @@
 # Python Bank System
 
-Simple banking system developed in Python.
+Sistema bancário simples desenvolvido em Python.
 
-## Features
+## Funcionalidades
+- Criar contas
+- Listar contas
+- Depósito
+- Saque
+- Extrato
+- Armazenamento em JSON
 
-- Create accounts
-- List accounts
-- Deposit money
-- Withdraw money
-- Check balance
-- View transaction history
-
-## Technologies
-
-- Python 3
+## Tecnologias
+- Python
+- JSON
+- Git / GitHub
