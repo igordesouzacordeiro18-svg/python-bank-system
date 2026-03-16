@@ -1,16 +1,1 @@
-# Python Bank System
-
-Sistema bancário simples desenvolvido em Python.
-
-## Funcionalidades
-- Criar contas
-- Listar contas
-- Depósito
-- Saque
-- Extrato
-- Armazenamento em JSON
-
-## Tecnologias
-- Python
-- JSON
-- Git / GitHub
+Sistema bancário em Python com interface via terminal e persistência de dados.## ✨ Funcionalidades* Cadastro de usuários e contas vinculadas.* Operações de **Depósito**, **Saque** e **Extrato**.* Armazenamento automático em arquivo **JSON**.* Código modularizado para fácil manutenção.## 🛠️ Tecnologias* **Python 3*** **JSON** (Banco de dados NoSQL local) 
